@@ -9,8 +9,9 @@
 	<audio id="flextape" src="flextape.wav"></audio>
 	<audio id="flexseal" src="flexseal.wav"></audio>
 	<audio id="repaired" src="repaired.wav"></audio>
-	<audio id="flexglue" src="flexglue.mp3"></audio>
+	<audio id="flexglue" src="flexglue.wav"></audio>
 	<audio id="handyman" src="handyman.wav"></audio>
+	<audio id="flexshot" src="flexshot.wav"></audio>
     </head>
     <body>
         <h1 id="title">Phil Swift Soundboard</h1>
@@ -39,7 +40,7 @@
                 <button class="buttonshape2" onclick="document.getElementById('damage').play()">Thats a lot of damage</button>
             </div>
             <div id="button">
-                <button class="buttonshape">Flex Shot</button>
+                <button class="buttonshape" onclick="document.getElementById('flexshot').play()">Flex Shot</button>
             </div>
             <div id="button">
                 <button class="buttonshape" onclick="document.getElementById('repaired').play()">Repaired it</button>
@@ -54,5 +55,8 @@
                 <button class="buttonshape2">How about a little more</button>
             </div>
         </div>
+	<div style="margin-top: 250px;">
+		<a href="./extras.html"><p id="extras">Extra Goodies</p></a>
+	</div>
     </body>
 </html>
