@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-image: url('background.jpg');
+    background-image: url('ussr.png');
     background-size: cover;
 }
 #button{
@@ -33,7 +33,7 @@ body{
 #title{
     font-size: 36px;
     font-family: Comic Sans MS;
-    color: white;
+    color: #FFD900;
 }
 #extras{
 	font-size: 24px;
