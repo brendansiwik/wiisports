@@ -24,16 +24,16 @@ body{
     font-size: 16px;
     margin-top: 5px;
 }
-.buttonshape4{
-    width: 200px;
+.titlebutton{
+    width: 600px;
     height: 50px;
-    font-size: 16px;
+    font-size: 32px;
     margin-top: 5px;
 }
 #title{
     font-size: 36px;
     font-family: Comic Sans MS;
-    color: white;
+    color: black;
 }
 #extras{
 	font-size: 24px;
